@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This application is a demonstration prototype just to show how to perform CSRF attacks.",
   "main": "app.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
